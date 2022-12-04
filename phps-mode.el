@@ -175,6 +175,7 @@
         (delete-region (point-min) (point-max))
         (insert new-buffer-contents)))))
 
+;;;###autoload
 (define-derived-mode phps-mode prog-mode "PHPs"
   "Major mode for PHP with code intelligence."
 
